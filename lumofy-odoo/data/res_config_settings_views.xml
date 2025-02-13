@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="res_config_settings_view_form" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.lumofy</field>
+        <field name="model">res.config.settings</field>
+        <field name="priority" eval="70" />
+        <field name="inherit_id" ref="base.res_config_settings_view_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//form" position="inside">
+                <app data-string="Lumofy" string="Lumofy" name="lumofy"
+                    groups="hr.group_hr_manager">
+                    <block title="Lumofy" name="lumofy_setting_container">
+                        <field name="lumofy_is_configuration_valid" invisible="1"/>
+
+                        <div class="col-12 o_setting_box" id="lumofy_is_configuration_valid">
+                            <label for="lumofy_is_configuration_valid" string="Connected" invisible="lumofy_is_configuration_valid == False"/>
+                            <label for="lumofy_is_configuration_valid" string="Not Connected" invisible="lumofy_is_configuration_valid == True"/>
+                        </div>
+
+                        <div class="col-12 o_setting_box" id="lumofy_remote_url">
+                            <div class="o_setting_right_pane">
+                                <label for="lumofy_remote_url" />
+                                <br />
+                                <field name="lumofy_remote_url" />
+                            </div>
+                        </div>
+
+                        <div class="col-12 o_setting_box" id="lumofy_integration_uuid">
+                            <div class="o_setting_right_pane">
+                                <label for="lumofy_integration_uuid" />
+                                <br />
+                                <field name="lumofy_integration_uuid" />
+                            </div>
+                        </div>
+
+                        <div class="col-12 o_setting_box" id="lumofy_authentication_token">
+                            <div class="o_setting_right_pane">
+                                <label for="lumofy_authentication_token" />
+                                <br />
+                                <field name="lumofy_authentication_token" />
+                            </div>
+                        </div>
+
+                        <div class="col-12 o_setting_box" id="lumofy_super_admin_category">
+                            <div class="o_setting_right_pane">
+                                <label for="lumofy_super_admin_category" />
+                                <br />
+                                <field name="lumofy_super_admin_category" />
+                            </div>
+                        </div>
+
+                        <div class="col-12 o_setting_box" id="lumofy_license">
+                            <div class="o_setting_right_pane">
+                                <label for="lumofy_license" />
+                                <br />
+                                <field name="lumofy_license" />
+                            </div>
+
+                            <button name="sync_licenses" type="object"
+                            string="Sync Licenses" class="btn-primary" />
+
+                        </div>
+
+                        <div class="col-12 o_setting_box" id="lumofy_sync_employee_avatars">
+                            <div class="o_setting_right_pane">
+                                <label for="lumofy_sync_employee_avatars" />
+                                <br />
+                                <field name="lumofy_sync_employee_avatars" />
+                            </div>
+                        </div>
+
+                    </block>
+                </app>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="lumofy_config_settings_action" model="ir.actions.act_window">
+        <field name="name">Settings</field>
+        <field name="res_model">res.config.settings</field>
+        <field name="view_mode">form</field>
+        <field name="target">inline</field>
+        <field name="context">{'module' : 'lumofy', 'bin_size': False}</field>
+    </record>
+</odoo>

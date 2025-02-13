@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="lumofy_job_function_view" model="ir.actions.act_window">
+        <field name="name">Job Functions</field>
+        <field name="res_model">lumofy.jobs.job_function</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <record id="lumofy_job_function_view_list"
+        model="ir.ui.view">
+        <field name="name">lumofy.jobs.job_function.list</field>
+        <field name="model">lumofy.jobs.job_function</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" />
+                <field name="job_family_id" />
+
+                <!-- Add a list of job positions under it -->
+            </tree>
+        </field>
+    </record>
+</odoo>

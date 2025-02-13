@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_employee_form_inherit" model="ir.ui.view">
+        <field name="name">lumofy.employee.inherit.lumofy.user.enrollments</field>
+        <field name="model">hr.employee</field>
+        <field name="inherit_id" ref="hr.view_employee_form" />
+        <field name="priority" eval="120" />
+        <field name="arch" type="xml">
+            <xpath expr="//notebook" position="inside">
+                <field name="is_lumofy_user" invisible="1"/>
+
+                <page string="Lumofy Item Enrollments">
+                    <div class="o_group" invisible="is_lumofy_user == True">
+                        This employee is not added to Lumofy users list.
+                    </div>
+                    <div class="o_group" invisible="is_lumofy_user == False">
+                        <button name="export_lumofy_item_enrollments" type="object"
+                            string="Export Enrollments to Excel" class="btn-primary" />
+
+                        <field name="lumofy_item_enrollments" readonly="1" options="{'no_open': True}">
+                            <tree string="Custom Table" create="false" edit="false" delete="false">
+                                <field name="item_name" />
+                                <field name="item_type" />
+                                <field name="due_date" />
+                                <field name="score" />
+                                <field name="status" />
+                            </tree>
+                        </field>
+                    </div>
+                </page>
+
+                <page string="Lumofy Pathway Enrollments">
+                    <div class="o_group" invisible="is_lumofy_user == True">
+                        This employee is not added to Lumofy users list.
+                    </div>
+                    <div class="o_group" invisible="is_lumofy_user == False">
+                        <button name="export_lumofy_pathway_enrollments" type="object"
+                            string="Export Enrollments to Excel" class="btn-primary" />
+
+                        <field name="lumofy_pathway_enrollments" readonly="1"
+                            options="{'no_open': True}">
+                            <tree string="Custom Table" create="false" edit="false" delete="false">
+                                <field name="pathway_name" />
+                                <field name="due_date" />
+                                <field name="progress" />
+                                <field name="status" />
+                            </tree>
+                        </field>
+                    </div>
+                </page>
+            </xpath>
+        </field>
+    </record>
+</odoo>

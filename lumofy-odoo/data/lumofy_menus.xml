@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<odoo>
+    <menuitem id="lumofy_integration_menu" name="Lumofy">
+        <menuitem id="lumofy_user_view_menu_item" action="lumofy_user_view" sequence="1"/>
+
+        <menuitem id="lumofy_jobs_menu_item" name="Job Management"  sequence="2">
+            <menuitem
+                id="lumofy_jobs_job_function_view_menu_item"
+                action="lumofy_job_function_view" />
+            <menuitem
+                id="lumofy_jobs_job_family_view_menu_item"
+                action="lumofy_job_family_view"
+            />
+        </menuitem>
+
+        <menuitem id="lumofy_enrollment_item_view_menu_item" action="lumofy_enrollment_item_view"  sequence="3"/>
+        <menuitem id="lumofy_enrollment_pathway_view_menu_item"
+            action="lumofy_enrollment_pathway_view"  sequence="4"/>
+        <menuitem id="lumofy_sync_log_entry_view_menu_item"
+            action="lumofy_sync_log_entry_view"  sequence="5"/>
+
+        <menuitem id="lumofy_config_menu_item"
+            name="Settings"
+            action="lumofy_config_settings_action"
+            groups="base.group_system"  sequence="6"/>
+    </menuitem>
+</odoo>
