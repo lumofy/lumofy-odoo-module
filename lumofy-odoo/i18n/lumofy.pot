@@ -1,0 +1,938 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* lumofy
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0-20241007\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-20 07:18+0000\n"
+"PO-Revision-Date: 2024-10-20 07:18+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/sync_logs.py:0
+#, python-format
+msgid "%s sync log entry (%s)"
+msgstr ""
+
+#. module: lumofy
+#: model_terms:ir.ui.view,arch_db:lumofy.lumofy_user_view_list
+msgid "Add all HR Employees"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_enrollment_item__item_type__article
+#, python-format
+msgid "Article"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_enrollment_item__item_type__assessment
+#, python-format
+msgid "Assessment"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: code:addons/lumofy/models/enrollments.py:0
+#: code:addons/lumofy/models/lumofy_employee.py:0
+#: code:addons/lumofy/models/lumofy_employee.py:0
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_enrollment_item__assigned_by
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_enrollment_pathway__assigned_by
+#, python-format
+msgid "Assigned By"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/res_config_settings.py:0
+#: model:ir.model.fields,field_description:lumofy.field_res_config_settings__lumofy_authentication_token
+#, python-format
+msgid "Authentication Token"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: code:addons/lumofy/models/enrollments.py:0
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_enrollment_item__status__awaiting_review
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_enrollment_pathway__status__awaiting_review
+#, python-format
+msgid "Awaiting Review"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_enrollment_item__item_type__checkpoints
+#, python-format
+msgid "Checkpoints"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: code:addons/lumofy/models/enrollments.py:0
+#: code:addons/lumofy/models/sync_logs.py:0
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_enrollment_item__status__completed
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_enrollment_pathway__status__completed
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_sync_logentry__sync_status__completed
+#, python-format
+msgid "Completed"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: code:addons/lumofy/models/enrollments.py:0
+#: code:addons/lumofy/models/users.py:0
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_enrollment_item__completed_date
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_enrollment_pathway__completed_date
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_license__ends_at
+#, python-format
+msgid "Completed Date"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/sync_logs.py:0
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_sync_logentry__completed_datetime
+#, python-format
+msgid "Completed Datetime"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/sync_logs.py:0
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_sync_logentry__sync_status__completed_partially
+#, python-format
+msgid "Completed Partially"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/lumofy_employee.py:0
+#: code:addons/lumofy/models/lumofy_employee.py:0
+#, python-format
+msgid "Completion Date"
+msgstr ""
+
+#. module: lumofy
+#: model:ir.model,name:lumofy.model_res_config_settings
+msgid "Config Settings"
+msgstr ""
+
+#. module: lumofy
+#: model_terms:ir.ui.view,arch_db:lumofy.res_config_settings_view_form
+msgid "Connected"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_enrollment_item__item_type__course
+#, python-format
+msgid "Course"
+msgstr ""
+
+#. module: lumofy
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_enrollment_item__create_uid
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_enrollment_pathway__create_uid
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_license__create_uid
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_sync_error__create_uid
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_sync_logentry__create_uid
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_user__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: lumofy
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_enrollment_item__create_date
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_enrollment_pathway__create_date
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_license__create_date
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_sync_error__create_date
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_sync_logentry__create_date
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_user__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: lumofy
+#: model_terms:ir.ui.view,arch_db:lumofy.lumofy_sync_log_entry_view_form
+#: model_terms:ir.ui.view,arch_db:lumofy.view_employee_form_inherit
+msgid "Custom Table"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: code:addons/lumofy/models/enrollments.py:0
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_enrollment_item__status__declined
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_enrollment_pathway__status__declined
+#, python-format
+msgid "Declined"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_enrollment_item__item_type__discussion
+#, python-format
+msgid "Discussion"
+msgstr ""
+
+#. module: lumofy
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_enrollment_item__display_name
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_enrollment_pathway__display_name
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_license__display_name
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_sync_error__display_name
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_sync_logentry__display_name
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_user__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_enrollment_item__item_type__document
+#, python-format
+msgid "Document"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: code:addons/lumofy/models/enrollments.py:0
+#: code:addons/lumofy/models/lumofy_employee.py:0
+#: code:addons/lumofy/models/lumofy_employee.py:0
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_enrollment_item__due_date
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_enrollment_pathway__due_date
+#, python-format
+msgid "Due Date"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: code:addons/lumofy/models/enrollments.py:0
+#: code:addons/lumofy/models/users.py:0
+#: model:ir.model,name:lumofy.model_hr_employee
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_enrollment_item__hr_employee_id
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_enrollment_pathway__hr_employee_id
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_user__hr_employee_id
+#, python-format
+msgid "Employee"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/lumofy_employee.py:0
+#: code:addons/lumofy/models/lumofy_employee.py:0
+#, python-format
+msgid "Employee Email"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/lumofy_employee.py:0
+#: code:addons/lumofy/models/lumofy_employee.py:0
+#, python-format
+msgid "Employee Name"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/users.py:0
+#, python-format
+msgid "Ends by %s (Remaining Licenses: %d)"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: code:addons/lumofy/models/enrollments.py:0
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_enrollment_item__status__created
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_enrollment_pathway__status__created
+#, python-format
+msgid "Enrolled"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: code:addons/lumofy/models/enrollments.py:0
+#: code:addons/lumofy/models/lumofy_employee.py:0
+#: code:addons/lumofy/models/lumofy_employee.py:0
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_enrollment_item__enrolled_date
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_enrollment_pathway__enrolled_date
+#, python-format
+msgid "Enrolled Date"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/sync_logs.py:0
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_sync_logentry__sync_type__enrollments
+#, python-format
+msgid "Enrollments"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/sync_logs.py:0
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_sync_error__error_message
+#, python-format
+msgid "Error Message"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/sync_logs.py:0
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_sync_logentry__error_ids
+#, python-format
+msgid "Error Messages"
+msgstr ""
+
+#. module: lumofy
+#: model_terms:ir.ui.view,arch_db:lumofy.view_employee_form_inherit
+msgid "Export Enrollments to Excel"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: code:addons/lumofy/models/enrollments.py:0
+#: code:addons/lumofy/models/sync_logs.py:0
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_enrollment_item__status__failed
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_enrollment_pathway__status__failed
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_sync_logentry__sync_status__failed
+#, python-format
+msgid "Failed"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: code:addons/lumofy/models/enrollments.py:0
+#, python-format
+msgid "Failed to fetch page %d enrollments."
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/users.py:0
+#, python-format
+msgid "Failed to update user avatar."
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/sync_logs.py:0
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_sync_error__record__hr_employee
+#, python-format
+msgid "HR Employee"
+msgstr ""
+
+#. module: lumofy
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_enrollment_item__id
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_enrollment_pathway__id
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_license__id
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_sync_error__id
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_sync_logentry__id
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_user__id
+msgid "ID"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_enrollment_item__item_type__image
+#, python-format
+msgid "Image"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: code:addons/lumofy/models/enrollments.py:0
+#: code:addons/lumofy/models/sync_logs.py:0
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_enrollment_item__status__in_progress
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_enrollment_pathway__status__in_progress
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_sync_logentry__sync_status__in_progress
+#, python-format
+msgid "In Progress"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/res_config_settings.py:0
+#: model:ir.model.fields,field_description:lumofy.field_res_config_settings__lumofy_integration_uuid
+#, python-format
+msgid "Integration Id"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/res_config_settings.py:0
+#: model:ir.model.fields,field_description:lumofy.field_res_config_settings__lumofy_is_configuration_valid
+#, python-format
+msgid "Is Configuration Valid?"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/lumofy_employee.py:0
+#: model:ir.model.fields,field_description:lumofy.field_hr_employee__is_lumofy_user
+#, python-format
+msgid "Is Lumofy User?"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: code:addons/lumofy/models/enrollments.py:0
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_enrollment_item__is_self_assigned
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_enrollment_pathway__is_self_assigned
+#, python-format
+msgid "Is Self Assigned"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/lumofy_employee.py:0
+#: code:addons/lumofy/models/lumofy_employee.py:0
+#, python-format
+msgid "Is Self Assigned?"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: code:addons/lumofy/models/lumofy_employee.py:0
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_enrollment_item__item_duration
+#, python-format
+msgid "Item Duration (Minutes)"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/sync_logs.py:0
+#: model:ir.actions.act_window,name:lumofy.lumofy_enrollment_item_view
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_sync_logentry__sync_type__item_enrollments
+#: model:ir.ui.menu,name:lumofy.lumofy_enrollment_item_view_menu_item
+#, python-format
+msgid "Item Enrollments"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: code:addons/lumofy/models/lumofy_employee.py:0
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_enrollment_item__item_name
+#, python-format
+msgid "Item Name"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: code:addons/lumofy/models/lumofy_employee.py:0
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_enrollment_item__item_type
+#, python-format
+msgid "Item Type"
+msgstr ""
+
+#. module: lumofy
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_enrollment_item__write_uid
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_enrollment_pathway__write_uid
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_license__write_uid
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_sync_error__write_uid
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_sync_logentry__write_uid
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_user__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: lumofy
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_enrollment_item__write_date
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_enrollment_pathway__write_date
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_license__write_date
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_sync_error__write_date
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_sync_logentry__write_date
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_user__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/users.py:0
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_license__license_uuid
+#, python-format
+msgid "License Id"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/res_config_settings.py:0
+#: model:ir.model.fields,field_description:lumofy.field_res_config_settings__lumofy_license
+#, python-format
+msgid "License to Use for Syncing"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_enrollment_item__item_type__live_session
+#, python-format
+msgid "Live Session"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/sync_logs.py:0
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_sync_error__log_entry_id
+#: model_terms:ir.ui.view,arch_db:lumofy.lumofy_sync_log_entry_view_form
+#, python-format
+msgid "Log Entry"
+msgstr ""
+
+#. module: lumofy
+#: model:ir.ui.menu,name:lumofy.lumofy_integration_menu
+#: model_terms:ir.ui.view,arch_db:lumofy.res_config_settings_view_form
+msgid "Lumofy"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: code:addons/lumofy/models/sync_logs.py:0
+#: model:ir.model,name:lumofy.model_lumofy_enrollment_item
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_sync_error__record__lumofy_enrollment_item
+#, python-format
+msgid "Lumofy Item Enrollment"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/lumofy_employee.py:0
+#: model:ir.model.fields,field_description:lumofy.field_hr_employee__lumofy_item_enrollments
+#: model_terms:ir.ui.view,arch_db:lumofy.view_employee_form_inherit
+#, python-format
+msgid "Lumofy Item Enrollments"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/sync_logs.py:0
+#: model:ir.model,name:lumofy.model_lumofy_enrollment_pathway
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_sync_error__record__lumofy_enrollment_pathway
+#, python-format
+msgid "Lumofy Pathway Enrollment"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/lumofy_employee.py:0
+#: model:ir.model.fields,field_description:lumofy.field_hr_employee__lumofy_pathway_enrollments
+#: model_terms:ir.ui.view,arch_db:lumofy.view_employee_form_inherit
+#, python-format
+msgid "Lumofy Pathway Enrollments"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/sync_logs.py:0
+#: model:ir.model,name:lumofy.model_lumofy_sync_error
+#, python-format
+msgid "Lumofy Sync Error"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/sync_logs.py:0
+#: model:ir.model,name:lumofy.model_lumofy_sync_logentry
+#, python-format
+msgid "Lumofy Sync Log Entry"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/res_config_settings.py:0
+#: model:ir.model.fields,field_description:lumofy.field_res_config_settings__lumofy_remote_url
+#, python-format
+msgid "Lumofy URL"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/users.py:0
+#, python-format
+msgid "Lumofy User: %s"
+msgstr ""
+
+#. module: lumofy
+#: model:ir.actions.server,name:lumofy.lumofy_code_sync_item_enrollments_ir_actions_server
+msgid "Lumofy: Sync Item Enrollments"
+msgstr ""
+
+#. module: lumofy
+#: model:ir.actions.server,name:lumofy.lumofy_code_sync_enrollments_ir_actions_server
+#: model:ir.actions.server,name:lumofy.lumofy_code_sync_pathway_enrollments_ir_actions_server
+msgid "Lumofy: Sync Pathway Enrollments"
+msgstr ""
+
+#. module: lumofy
+#: model:ir.actions.server,name:lumofy.lumofy_code_sync_users_ir_actions_server
+msgid "Lumofy: Sync Users"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: code:addons/lumofy/models/enrollments.py:0
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_enrollment_item__status__needs_grading
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_enrollment_pathway__status__needs_grading
+#, python-format
+msgid "Needs Grading"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/lumofy_employee.py:0
+#: code:addons/lumofy/models/lumofy_employee.py:0
+#, python-format
+msgid "No"
+msgstr ""
+
+#. module: lumofy
+#: model_terms:ir.ui.view,arch_db:lumofy.res_config_settings_view_form
+msgid "Not Connected"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/sync_logs.py:0
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_sync_logentry__error_records_count
+#, python-format
+msgid "Number of Records Errored"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/sync_logs.py:0
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_sync_logentry__synced_records_count
+#, python-format
+msgid "Number of Records Synced"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_enrollment_item__item_type__other
+#, python-format
+msgid "Other"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_enrollment_item__item_type__pdf
+#, python-format
+msgid "PDF"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/lumofy_employee.py:0
+#, python-format
+msgid "Pathway Duration (In Minutes)"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_enrollment_pathway__pathway_duration
+#, python-format
+msgid "Pathway Duration (Minutes)"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/sync_logs.py:0
+#: model:ir.actions.act_window,name:lumofy.lumofy_enrollment_pathway_view
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_sync_logentry__sync_type__pathway_enrollments
+#: model:ir.ui.menu,name:lumofy.lumofy_enrollment_pathway_view_menu_item
+#, python-format
+msgid "Pathway Enrollments"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: code:addons/lumofy/models/lumofy_employee.py:0
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_enrollment_pathway__pathway_name
+#, python-format
+msgid "Pathway Name"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/lumofy_employee.py:0
+#, python-format
+msgid "Progress"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_enrollment_pathway__progress
+#, python-format
+msgid "Progress (%)"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_enrollment_item__item_type__quiz
+#, python-format
+msgid "Quiz"
+msgstr ""
+
+#. module: lumofy
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_license__remaining_licenses
+msgid "Remaining Licenses"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: code:addons/lumofy/models/lumofy_employee.py:0
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_enrollment_item__score
+#, python-format
+msgid "Score"
+msgstr ""
+
+#. module: lumofy
+#: model:ir.actions.act_window,name:lumofy.lumofy_config_settings_action
+#: model:ir.ui.menu,name:lumofy.lumofy_config_menu_item
+msgid "Settings"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_enrollment_item__item_type__slideshow
+#, python-format
+msgid "Slideshow"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_enrollment_item__item_type__spreadsheet
+#, python-format
+msgid "Spreadsheet"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: code:addons/lumofy/models/enrollments.py:0
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_enrollment_item__status__started
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_enrollment_pathway__status__started
+#, python-format
+msgid "Started"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/sync_logs.py:0
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_sync_logentry__started_datetime
+#, python-format
+msgid "Started Datetime"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: code:addons/lumofy/models/enrollments.py:0
+#: code:addons/lumofy/models/lumofy_employee.py:0
+#: code:addons/lumofy/models/lumofy_employee.py:0
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_enrollment_item__status
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_enrollment_pathway__status
+#, python-format
+msgid "Status"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/res_config_settings.py:0
+#: model:ir.model.fields,field_description:lumofy.field_res_config_settings__lumofy_super_admin_category
+#, python-format
+msgid "Super Admin Category"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/res_config_settings.py:0
+#: model:ir.model.fields,field_description:lumofy.field_res_config_settings__lumofy_sync_employee_avatars
+#, python-format
+msgid "Sync Employee Avatars"
+msgstr ""
+
+#. module: lumofy
+#: model_terms:ir.ui.view,arch_db:lumofy.res_config_settings_view_form
+msgid "Sync Licenses"
+msgstr ""
+
+#. module: lumofy
+#: model:ir.actions.act_window,name:lumofy.lumofy_sync_log_entry_view
+#: model:ir.ui.menu,name:lumofy.lumofy_sync_log_entry_view_menu_item
+msgid "Sync Logs"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/sync_logs.py:0
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_sync_logentry__sync_status
+#, python-format
+msgid "Sync Status"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/sync_logs.py:0
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_sync_logentry__sync_type
+#, python-format
+msgid "Sync Type"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/sync_logs.py:0
+#, python-format
+msgid "Sync log entry error"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/sync_logs.py:0
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_sync_error__record
+#, python-format
+msgid "Syncing Record"
+msgstr ""
+
+#. module: lumofy
+#: model_terms:ir.ui.view,arch_db:lumofy.view_employee_form_inherit
+msgid "This employee is not added to Lumofy users list."
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/lumofy_employee.py:0
+#, python-format
+msgid "Time Spent  (In Minutes)"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: code:addons/lumofy/models/enrollments.py:0
+#: code:addons/lumofy/models/lumofy_employee.py:0
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_enrollment_item__time_spent
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_enrollment_pathway__time_spent
+#, python-format
+msgid "Time Spent (Minutes)"
+msgstr ""
+
+#. module: lumofy
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_license__total_licenses
+msgid "Total Licenses"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/sync_logs.py:0
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_sync_logentry__total_records_count
+#, python-format
+msgid "Total Number of Records"
+msgstr ""
+
+#. module: lumofy
+#: model:ir.model.fields,field_description:lumofy.field_lumofy_license__used_licenses
+msgid "Used Licenses"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/users.py:0
+#, python-format
+msgid "User is missing email."
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/users.py:0
+#, python-format
+msgid "User is missing first name or last name."
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/users.py:0
+#, python-format
+msgid "User is missing job role."
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/sync_logs.py:0
+#: model:ir.actions.act_window,name:lumofy.lumofy_user_view
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_sync_logentry__sync_type__users
+#: model:ir.ui.menu,name:lumofy.lumofy_user_view_menu_item
+#, python-format
+msgid "Users"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: model:ir.model.fields.selection,name:lumofy.selection__lumofy_enrollment_item__item_type__video
+#, python-format
+msgid "Video"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/lumofy_employee.py:0
+#: code:addons/lumofy/models/lumofy_employee.py:0
+#, python-format
+msgid "Yes"
+msgstr ""
+
+#. module: lumofy
+#: model:ir.model,name:lumofy.model_lumofy_license
+msgid "lumofy.license"
+msgstr ""
+
+#. module: lumofy
+#: model:ir.model,name:lumofy.model_lumofy_user
+msgid "lumofy.user"
+msgstr ""
+
+#. module: lumofy
+#. odoo-python
+#: code:addons/lumofy/models/enrollments.py:0
+#: code:addons/lumofy/models/enrollments.py:0
+#, python-format
+msgid "“%s” enrollment in “%s”"
+msgstr ""

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="lumofy_user_view" model="ir.actions.act_window">
+        <field name="name">Users</field>
+        <field name="res_model">lumofy.user</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <record id="lumofy_user_view_list"
+        model="ir.ui.view">
+        <field name="name">lumofy.user.list</field>
+        <field name="model">lumofy.user</field>
+        <field name="arch" type="xml">
+            <tree>
+                <header>
+                    <button name="add_all_employees" type="object" string="Add all HR Employees"
+                        display="always" />
+                </header>
+
+                <field name="hr_employee_id" />
+            </tree>
+        </field>
+    </record>
+</odoo>

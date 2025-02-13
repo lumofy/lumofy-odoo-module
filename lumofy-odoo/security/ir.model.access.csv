@@ -1,0 +1,10 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+access_lumofy_user,access_lumofy_user,model_lumofy_user,base.group_user,1,1,1,1
+access_lumofy_license,access_lumofy_license,model_lumofy_license,base.group_user,1,1,1,1
+access_lumofy_enrollment_item,access_lumofy_enrollment_item,model_lumofy_enrollment_item,base.group_user,1,0,0,0
+access_lumofy_enrollment_pathway,access_lumofy_enrollment_pathway,model_lumofy_enrollment_pathway,base.group_user,1,0,0,0
+access_lumofy_sync_log_entries,access_lumofy_sync_log_entries,model_lumofy_sync_logentry,base.group_user,1,1,1,1
+access_lumofy_sync_log_entry_errors,access_lumofy_sync_log_entry_errors,model_lumofy_sync_error,base.group_user,1,0,0,0
+
+access_lumofy_job_function,access_lumofy_job_function,model_lumofy_jobs_job_function,base.group_user,1,1,1,1
+access_lumofy_job_family,access_lumofy_job_family,model_lumofy_jobs_job_family,base.group_user,1,1,1,1
