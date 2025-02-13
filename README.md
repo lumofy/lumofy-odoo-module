@@ -1,0 +1,1 @@
+# lumofy-odoo-module
