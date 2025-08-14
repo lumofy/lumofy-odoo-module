@@ -18,10 +18,12 @@
             action="lumofy_enrollment_pathway_view"  sequence="4"/>
         <menuitem id="lumofy_sync_log_entry_view_menu_item"
             action="lumofy_sync_log_entry_view"  sequence="5"/>
+                <menuitem id="lumofy_csv_upload_menu_item"
+                action="action_lumofy_csv_upload_model"  sequence="6"/>
 
         <menuitem id="lumofy_config_menu_item"
             name="Settings"
             action="lumofy_config_settings_action"
-            groups="base.group_system"  sequence="6"/>
+            groups="base.group_system"  sequence="7"/>
     </menuitem>
 </odoo>

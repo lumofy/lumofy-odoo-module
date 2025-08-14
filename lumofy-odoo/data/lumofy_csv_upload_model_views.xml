@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<odoo>
+    <!-- Jobs CSV Upload Tree View -->
+    <record id="view_lumofy_csv_upload_tree" model="ir.ui.view">
+        <field name="name">lumofy.csv.upload.tree</field>
+        <field name="model">lumofy.csv.upload</field>
+        <field name="arch" type="xml">
+            <tree string="Jobs CSV Uploads">
+                <field name="name"/>
+                <field name="filename"/>
+                <field name="processing_status"/>
+                <field name="create_date"/>
+                <field name="create_uid"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Jobs CSV Upload Form View -->
+    <record id="view_lumofy_csv_upload_form" model="ir.ui.view">
+        <field name="name">lumofy.csv.upload.form</field>
+        <field name="model">lumofy.csv.upload</field>
+        <field name="arch" type="xml">
+            <form string="Jobs CSV Upload">
+                <header>
+                    <button name="action_process_csv" type="object" 
+                            string="Process CSV" 
+                            class="btn-primary"
+                            />
+                    <button name="action_reset_status" type="object" 
+                            string="Reset Status" 
+                            class="btn-secondary"
+                            />
+                    <field name="processing_status" widget="statusbar" 
+                           statusbar_visible="pending,processing,completed"/>
+                </header>
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" placeholder="Jobs CSV Upload Name"/>
+                        </h1>
+                    </div>
+                    
+                    <group>
+                        <group>
+                            <field name="csv_file" filename="filename" 
+                                   widget="binary" 
+                                   string="CSV File"/>
+                            <field name="filename" string="Filename"/>
+                        </group>
+                        <group>
+                            <field name="create_date" readonly="1"/>
+                            <field name="create_uid" readonly="1"/>
+                            <field name="write_date" readonly="1"/>
+                            <field name="write_uid" readonly="1"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Jobs CSV Upload Action -->
+    <record id="action_lumofy_csv_upload_model" model="ir.actions.act_window">
+        <field name="name">Jobs CSV Uploads</field>
+        <field name="res_model">lumofy.csv.upload</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Upload your CSV files here!
+            </p>
+            <p>
+                Use this tool to upload and process CSV files for data import.
+            </p>
+        </field>
+    </record>
+</odoo> 

@@ -28,6 +28,8 @@
         "data/lumofy_user_enrollments_page.xml",
         # Sync Logs
         "data/lumofy_sync_log_entry_views.xml",
+        # Jobs CSV Upload
+        "data/lumofy_csv_upload_model_views.xml",
         # Menus
         "data/lumofy_menus.xml",
     ],

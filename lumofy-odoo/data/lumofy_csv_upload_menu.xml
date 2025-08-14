@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<odoo>
+    <!-- Jobs CSV Upload Menu -->
+    <menuitem id="menu_lumofy_csv_upload"
+                name="Jobs CSV Upload"
+                parent="menu_lumofy_root"
+                action="action_lumofy_csv_upload"
+              sequence="50"/>
+</odoo> 

@@ -8,3 +8,5 @@ access_lumofy_sync_log_entry_errors,access_lumofy_sync_log_entry_errors,model_lu
 
 access_lumofy_job_function,access_lumofy_job_function,model_lumofy_jobs_job_function,base.group_user,1,1,1,1
 access_lumofy_job_family,access_lumofy_job_family,model_lumofy_jobs_job_family,base.group_user,1,1,1,1
+
+access_lumofy_csv_upload,access_lumofy_csv_upload,model_lumofy_csv_upload,base.group_user,1,1,1,1
